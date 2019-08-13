@@ -1,0 +1,3 @@
+git config --list
+Connect it to github
+git remote add githubrepogit  git@github.com:voyagerx3/repogit
