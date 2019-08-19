@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /vendor/
 node_modules/
 npm-debug.log
@@ -8,6 +9,11 @@ vendor/
 node_modules/
 npm-debug.log
 >>>>>>> 77b5e92... Initial commit
+=======
+vendor/
+node_modules/
+npm-debug.log
+>>>>>>> 77b5e92656a1c6f2d369ab46e89d44ec6c26091f
 
 # Laravel 4 specific
 bootstrap/compiled.php
@@ -16,6 +22,7 @@ app/storage/
 # Laravel 5 & Lumen specific
 public/storage
 public/hot
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Laravel 5 & Lumen specific with changed public path
@@ -29,6 +36,8 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 =======
+=======
+>>>>>>> 77b5e92656a1c6f2d369ab46e89d44ec6c26091f
 storage/*.key
 .env.*.php
 .env.php
@@ -38,4 +47,7 @@ Homestead.json
 
 # Rocketeer PHP task runner and deployment package. https://github.com/rocketeers/rocketeer
 .rocketeer/
+<<<<<<< HEAD
 >>>>>>> 77b5e92... Initial commit
+=======
+>>>>>>> 77b5e92656a1c6f2d369ab46e89d44ec6c26091f
