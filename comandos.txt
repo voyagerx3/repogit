@@ -2,7 +2,7 @@ git config --list
 Connect it to github
 git remote add githubrepogit  git@github.com:voyagerx3/repogit
 git push --set-upstream githubrepogit master
-git remote add bitbucketrepogit  git@bitbucket.org:rickhunterec/repogit.git
+git remote add bitbucketrepogit  git@bitbucket.org:bitgeoinca/repogit.git
 git push --set-upstream bitbucketrepogit master
 
 git checkout -b iss53
