@@ -9,3 +9,24 @@ git checkout -b iss53
 
 
 ssh -T git@bitbucket.org
+
+
+
+git remote add githubLaravel  git@github.com:voyagerx3/Laravel
+git push --set-upstream githubLaravel master
+
+git checkout -b iss53
+git remote -v
+git fetch githubLaravel
+git push --set-upstream githubLaravel iss53
+
+git checkout master
+git merge iss53
+
+git remote rm githubLaravel
+git remote add githubLaravel  git@github.com:voyagerx3/Laravel
+git push -f githubLaravel master
+git push githubLaravel
+
+
+git push --set-upstream githubLaravel master
