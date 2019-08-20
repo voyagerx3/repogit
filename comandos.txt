@@ -6,3 +6,6 @@ git remote add bitbucketrepogit  git@bitbucket.org:rickhunterec/repogit.git
 git push --set-upstream bitbucketrepogit master
 
 git checkout -b iss53
+
+
+ssh -T git@bitbucket.org
