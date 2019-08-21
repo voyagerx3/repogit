@@ -30,3 +30,18 @@ git push githubLaravel
 
 
 git push --set-upstream githubLaravel master
+
+git checkout -b iss54
+
+git clone git@bitbucket.org:bitgeoinca/laravel.git
+git remote add bitbucketlaravel  git@bitbucket.org:bitgeoinca/laravel.git
+git fetch bitbucketlaravel
+git push --set-upstream bitbucketlaravel master
+git push -f bitbucketlaravel master
+git push bitbucketlaravel
+git push --set-upstream bitbucketlaravel iss54
+git push bitbucketlaravel
+git checkout master
+git merge iss54
+
+
